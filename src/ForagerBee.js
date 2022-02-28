@@ -11,7 +11,6 @@
 // forage method, add input (treasure) to treasureChest
 
 class ForagerBee extends Bee {
-
   constructor() {
     super();
     this.age = 10;
@@ -24,5 +23,4 @@ class ForagerBee extends Bee {
   forage(treasure) {
     this.treasureChest.push(treasure);
   }
-
 }

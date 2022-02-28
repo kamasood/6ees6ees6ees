@@ -4,7 +4,6 @@
 // eat method, returns 'Mmmmmmmm jelly'
 
 class Grub {
-
   constructor() {
     this.age = 0;
     this.color = 'pink';
@@ -14,5 +13,4 @@ class Grub {
   eat() {
     return 'Mmmmmmmmm jelly';
   }
-
 }

@@ -11,9 +11,7 @@
 // forage method, returns 'I am too old, let me play cards instead'
 // gamble method, adds input (treasure) to treasureChest
 
-
 class RetiredForagerBee extends ForagerBee {
-
   constructor() {
     super();
     this.age = 40;
@@ -29,5 +27,4 @@ class RetiredForagerBee extends ForagerBee {
   gamble(treasure) {
     this.treasureChest.push(treasure);
   }
-
-};
+}

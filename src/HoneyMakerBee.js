@@ -10,9 +10,7 @@
 // makeHoney method, adds 1 to honeyPot
 // giveHoney method, subtracts 1 from honeyPot (edge case if honeyPot is empty)
 
-
 class HoneyMakerBee extends Bee {
-
   constructor() {
     super();
     this.age = 10;
@@ -32,5 +30,4 @@ class HoneyMakerBee extends Bee {
       alert('This Bee has no honey to give!');
     }
   }
-
 }
